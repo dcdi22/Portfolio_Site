@@ -187,7 +187,7 @@ a.read-more {
 -------------------------------------------------- */
 .section-title {
   padding: 0 215px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 .section-title h2 {
   font-size: 36px;
@@ -411,7 +411,7 @@ a.main-menu-btn {
   z-index: 999;
   position: fixed;
   text-align: center;
-  background-color: #141414;
+  background-color: #91abb9;
   box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.1);
@@ -444,7 +444,7 @@ a.main-menu-btn > i {
   color: #ffffff;
   line-height: 60px;
   text-align: center;
-  background-color: #141414;
+  background-color: #91abb9;
 }
 
 .header-section .introduction a.scroll-down {
@@ -509,7 +509,7 @@ a.main-menu-btn > i {
   height: 90px;
   padding: 35px 30px;
   position: relative;
-  background-color: #141414;
+  background-color: #91abb9;
 }
 
 /* back to top - start
@@ -1090,11 +1090,17 @@ a.main-menu-btn > i {
   line-height: 60px;
   text-align: center;
   margin-right: 15px;
-  background-color: #141414;
+  background-color: #91abb9;
 }
 .contact-form-section .address .address-contant {
   display: table;
   padding: 8px 0px;
+}
+.contact-form-section a.email {
+  text-transform: lowercase;
+}
+.contact-form-section a {
+  color: #141414;
 }
 
 
