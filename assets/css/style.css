@@ -536,6 +536,8 @@ a.main-menu-btn > i {
 ================================================== */
 .about-section {
   background-color: #fafafa;
+  padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-section .about-video {
@@ -710,6 +712,10 @@ a.main-menu-btn > i {
 
 /* - 5.3 - experience-section - start
 ================================================== */
+.experience-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 
 .experience-section ul.date {margin-bottom: 80px;}
@@ -1057,7 +1063,8 @@ height: calc(100% - 56px);
 
 .view-site {
   color: #ffffff !important;
-  background-color: #91abb9;
+  /* background-color: #5da2ec; */
+  background-color: #9db299;
 }
 
 .project-media {

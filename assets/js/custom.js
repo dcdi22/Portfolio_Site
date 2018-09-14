@@ -7,7 +7,11 @@
 
 
 
-  $(".main-menu-btn").sideNav();
+  $(".main-menu-btn").sideNav({
+    // menuWidth: 300,
+    closeOnClick: true,
+    edge: 'right', // <--- CHECK THIS OUT
+  });
   $('.scrollspy').scrollSpy({
   	scrollOffset:0
   });
