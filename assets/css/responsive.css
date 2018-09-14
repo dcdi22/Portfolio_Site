@@ -51,6 +51,11 @@
 @media screen and (max-width: 991px) {
 	.left-sidebar-section {display: none;}
 	.main-body-section {width: 100%;}
+	.modal {
+		left: 0;
+		margin: auto;
+	  }
+	.modal-fullscreen.open {width: 100%;}
 	.header-section .introduction {padding: 16% 16%;}
 	.about-section .about-video {margin-bottom: 30px;}
 	.my-service-section .service {
