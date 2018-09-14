@@ -1,15 +1,4 @@
 
-/* --------------------------------------------------
-Rahul Tanvir Photography - HTML5 Template
-
-File:           JS Base
-Version:        1.0
-Last change:    27/06/2017
-Author:         htmlmate
--------------------------------------------------- */
-
-
-
 
 (function($) {
   "use strict";
