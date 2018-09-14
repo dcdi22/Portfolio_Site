@@ -419,7 +419,7 @@ a.main-menu-btn > i {
 /* introduction - start
 .................................................. */
 .introduction {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 .header-section .introduction {padding: 16% 24%;}
 .header-section .introduction h1 {
@@ -534,6 +534,10 @@ a.main-menu-btn > i {
 ==================================================================================================== */
 /* - 5.1 - about-section - start
 ================================================== */
+.about-section {
+  background-color: #fafafa;
+}
+
 .about-section .about-video {
   overflow: hidden;
   position: relative;
@@ -706,6 +710,8 @@ a.main-menu-btn > i {
 
 /* - 5.3 - experience-section - start
 ================================================== */
+
+
 .experience-section ul.date {margin-bottom: 80px;}
 .experience-section ul.date li {
   width: 200px;
@@ -778,6 +784,13 @@ a.main-menu-btn > i {
   animation-fill-mode: forwards;
 }
 
+.Rx-width-69 {
+  -webkit-animation-name: Rx-width-69;
+  -o-animation-name: Rx-width-69;
+  animation-name: Rx-width-69;
+  animation-fill-mode: forwards;
+}
+
 @keyframes Rx-width-90 {
    0% {
     width: 0%;
@@ -804,6 +817,15 @@ a.main-menu-btn > i {
   100% {
     width: 87%;
   }
+}
+@keyframes Rx-width-69 {
+  0% {
+   width: 0%;
+ }
+
+ 100% {
+   width: 69%;
+ }
 }
 
 
@@ -995,74 +1017,11 @@ a.main-menu-btn > i {
 ================================================== */
 
 
-/* - 5.8 - latest-blog - start
-================================================== */
-.latest-blog-carousel .blog {
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-}
-.latest-blog-carousel .item {padding: 15px;}
-
-.latest-blog-carousel .blog-image {
-  width: 100%;
-  height: 295px;
-  overflow: hidden;
-}
-.latest-blog-carousel .blog-content {
-  padding: 30px 15px 15px;
-}
 
 
-.owl-theme .owl-nav {margin: 20px 0px;}
-.owl-theme .owl-nav [class*=owl-] {
-  margin: 5px;
-  color: #141414;
-  font-size: 14px;
-  padding: 5px 10px;
-  border-radius: 0px;
-  background: #ffffff;
-  -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
-  box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
-}
-.owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffffff;
-  background: #141414;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  margin: 5px;
-  width: 10px;
-  height: 10px;
-  display: block;
-  border-radius: 0px;
-  background: #ffffff;
-  -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
-  box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
-
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #141414;
-  -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-}
-/* - 5.8 - latest-blog - end
+/* - 5.8.5 - Modal - start
 ================================================== */
 
-
-/* - 5.9 - contact-form-section - start
-================================================== */
-/* .contact-form-section {background-color: #fafafa;} */
 .modal-overlay {
   opacity: 0 !important;
 }
@@ -1082,6 +1041,38 @@ a.main-menu-btn > i {
 .modal-fullscreen .modal-content {
 height: calc(100% - 56px);
 }
+
+.modal .modal-content {
+  text-align: left !important;
+  padding: 100px 50px 50px !important;
+}
+
+.project-description, .project-button {
+  margin-top: 30px;
+}
+
+.project-button {
+  /* text-align: left !important; */
+}
+
+.view-site {
+  color: #ffffff !important;
+  background-color: #91abb9;
+}
+
+.project-media {
+  margin: 0 auto;
+  max-width: 780px;
+  margin-top: 30px;
+}
+
+
+/* - 5.8.5 - Modal - end
+================================================== */
+
+/* - 5.9 - contact-form-section - start
+================================================== */
+/* .contact-form-section {background-color: #fafafa;} */
 
 .contact-form-section .basic-address {padding: 15px 0px;}
 .contact-form-section .address {
