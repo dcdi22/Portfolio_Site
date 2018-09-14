@@ -144,11 +144,13 @@
 				============================== -->
 			<div class="introduction center-align">
 				<h1>
-					<span>hi</span> i am delcie dion,
+					<!-- <span>hi</span> i am delcie dion, -->
+					Delcie<span class="slash" style="color:#91abb9; font-weight: bold;">/</span>Dion
 				</h1>
 				<p class="title-xxsmall mb-30">
+					<span id="holder"></span><span class="blinking-cursor">|</span>
 					<!-- Designer + Developer -->
-					I am a full-stack web developer.
+					<!-- I am a full-stack web developer. -->
 				</p>
 				<a href="#!" class="custom-btn download waves-effect waves-light">
 					<i class="fa fa-download" aria-hidden="true"></i>
@@ -158,7 +160,8 @@
 				<div class="center-align">
 					<a href="#about-section" class="scroll-down center-align">
 						<p>scroll down</p>
-						<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+						<br>
+						<i class="fa fa-angle-double-down bounce" aria-hidden="true"></i>
 					</a>
 				</div>
 
@@ -202,7 +205,7 @@
 			<div class="section-title center-align">
 				<h2>my skills</h2>
 				<p>
-					I specialize in writing clean code and designing for exceptional user experience.
+					I specialize in writing clean code and design for exceptional user experience.
 				</p>
 			</div>
 			<!-- /.section-title -->
@@ -726,6 +729,22 @@
 	</script>
 	<script>
 		$(document).ready(function () {
+			(function ($) {
+				$.fn.writeText = function (content) {
+					var contentArray = content.split(""),
+						current = 0,
+						elem = this;
+					setInterval(function () {
+						if (current < contentArray.length) {
+							elem.text(elem.text() + contentArray[current++]);
+						}
+					}, 80);
+				};
+
+			})(jQuery);
+
+			// input text for typing animation 
+			$("#holder").writeText("FULL-STACK WEB DEVELOPER");
 			// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
 			$('.modal').modal();
 		});
