@@ -360,7 +360,7 @@ img {
   z-index: 1000;
   position: fixed;
   overflow: visible;
-  background: #fff url('../images/preloader.gif') no-repeat center center;
+  /* background: #fff url('../images/preloader.gif') no-repeat center center; */
 }
 
 /* preloader - end
@@ -1406,9 +1406,9 @@ a.main-menu-btn>i {
   top: 0 !important;
 }
 
-.modal-fullscreen .modal-content {
+/* .modal-fullscreen .modal-content {
   height: calc(100% - 56px);
-}
+} */
 
 .modal .modal-content {
   text-align: left !important;
@@ -1534,16 +1534,3 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 /* - 5.9 - contact-form-section - end
 ================================================== */
-
-
-/* - 5.10 - google-map - start
-================================================== */
-#google-map {
-  height: 300px;
-  margin-bottom: 15px;
-}
-
-/* - 5.10 - google-map - end
-================================================== */
-/* - 5 - index (home page) - end
-==================================================================================================== */

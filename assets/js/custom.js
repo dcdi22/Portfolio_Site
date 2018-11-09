@@ -16,7 +16,7 @@
   	scrollOffset:0
   });
 
-	// about video button - start ------------------------------
+	// about portfolio fade button - start ------------------------------
 	$('.play-btn').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
@@ -142,7 +142,7 @@ $('.button-group').each(function(i, buttonGroup) {
 });
 
 
-
+$("#current-year").text(new Date().getFullYear());
 
 
 })(jQuery);
